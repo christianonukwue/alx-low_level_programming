@@ -18,7 +18,7 @@ while (tens != 0)
 {
 tmp = a / tens;
 _putchar('0' + tmp);
-a = a - (tens * tmp);
+a = a - (tens *tmp);
 tens /= 10;
 }
 }
